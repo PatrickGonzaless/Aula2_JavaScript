@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 8</title>
+</head>
+<body>
+
+	<h1>Exercício 8 - Jogo Palmeiras x Corinthians</h1>
+	<script type="text/javascript">
+		alert("Esta é o Exercício 8")
+		var numeroGolsCorinthians = parseInt(prompt("Digite o número de Gols do Corinthians: "))
+		var numeroGolsPalmeiras = parseInt(prompt("Digite o número de Gols do Palmeiras: "))
+
+		document.write("Gols do Corinthians: " +numeroGolsCorinthians)
+		document.write("<br>")
+		document.write("Gols do Palmeiras: " +numeroGolsPalmeiras)
+
+		if (numeroGolsCorinthians > numeroGolsPalmeiras){
+			document.write("<br> Corinthians venceu.")
+		}else if(numeroGolsCorinthians < numeroGolsPalmeiras){
+			document.write("<br> Palmeiras venceu.")
+		}else{
+			document.write("<br> Houve um empate.")
+		}
+
+
+	</script>
+
+</body>
+</html>

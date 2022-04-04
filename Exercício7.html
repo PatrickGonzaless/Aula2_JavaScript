@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercício 7</title>
+</head>
+<body>
+
+	<h1>Exercício 7 - Comprando maçãs</h1>
+	<script type="text/javascript">
+		alert("Este é o Exercício 7 (o das maçãs)")
+		var numeroMacas = parseInt(prompt("Digite o número de maçãs que foram compradas: "))
+
+		if(numeroMacas < 12){
+			preco = 3.5
+		}else if(numeroMacas >= 12){
+			preco = 2.5
+		}
+		
+		let precoFinal = preco * numeroMacas
+
+		document.write("O número total de maças compradas foram: " +numeroMacas+ "<br>")
+		document.write("Preço total: R$ " + precoFinal)
+
+
+	</script>
+
+</body>
+</html>

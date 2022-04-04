@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 10</title>
+</head>
+<body>
+	<h1>Exercício 10 - Formas Geométricas</h1>
+    <script>
+        let numero1 = parseInt(prompt("Insira o numero de lados do poligono: "))
+        let numero2 = parseFloat(prompt("Insira a medida dos lados do poligono: "))
+        let area = null
+        if(numero1 < 3){
+            document.write("Não é um poligono")
+        }else if(numero1 == 3){
+            area = numero2*numero1
+            document.write("O poligono é um triangulo. Sua perímetro é de: " + area + "cm.")
+        }else if(numero1 == 4){
+            area = numero2*numero2
+            document.write("O poligono é um quadrado. Sua área é de: " + area + "cm.")
+        }else if(numero1 == 5){
+            document.write("O poligono é um pentagono.")
+        }else{
+            document.write("Poligono não identificado")
+        }
+    </script>
+    
+</body>
+</html>
